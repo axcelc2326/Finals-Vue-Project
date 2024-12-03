@@ -221,14 +221,18 @@ export default {
 
 <style scoped>
 .card {
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 8px;
-  overflow: hidden;
   height: 100%;
 }
 
 .card-body {
+  background-color: #1e90ff;
+  color: white;
   padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgb(75, 75, 75);
+  transition: transform 0.5s;
 }
 
 .card-title {
@@ -263,13 +267,15 @@ export default {
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #444444;
   border: none;
+  color: white;
 }
 
 .btn-danger {
   background-color: #dc3545;
   border: none;
+  color: white;
 }
 
 .d-grid {

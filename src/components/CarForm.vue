@@ -3,7 +3,7 @@
     <h2 class="text-center mb-4">Add a Car</h2>
     <form @submit.prevent="addCar" class="needs-validation" novalidate>
       <!-- Form container with border -->
-      <div class="form-container border p-4 rounded shadow-sm">
+      <div class="form-container">
         <!-- Car Name -->
         <div class="mb-3">
           <label for="name" class="form-label">Car's Owner:</label>
@@ -79,7 +79,7 @@
 
         <!-- Submit Button -->
         <div class="d-grid">
-          <button type="submit" class="btn btn-primary">Add Car</button>
+          <button type="submit" class="btn">Add Car</button>
         </div>
       </div>
     </form>
@@ -129,11 +129,11 @@ export default {
 <style scoped>
 /* Form container styling with border, padding, and shadow */
 .form-container {
-  border: 1px solid #ddd; /* Light gray border */
+  color: white;
   border-radius: 8px;
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #1e90ff;
+  box-shadow: 2px 4px 6px rgb(75, 75, 75);
 }
 
 /* Optional: Adjust padding for container */
@@ -150,5 +150,15 @@ h2 {
 .invalid-feedback {
   font-size: 0.9rem;
   color: #dc3545; /* Red color for error messages */
+}
+
+.btn{
+  background-color: #28a745;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #207233;
+  color: white;
 }
 </style>

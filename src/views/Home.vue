@@ -85,7 +85,7 @@
     </section>
 
     <!-- How It Works Section -->
-    <section id="how-it-works" class="bg-light py-5">
+    <section id="how-it-works" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">How It Works</h2>
         <div class="row text-center">
@@ -193,11 +193,12 @@ body {
 
 /* Icon Box */
 .icon-box {
+  background-color: #1e90ff;
+  color: white;
   padding: 20px;
-  background: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  box-shadow: 2px 4px 6px rgb(75, 75, 75);
+  transition: transform 0.5s;
 }
 
 .icon-box:hover {
